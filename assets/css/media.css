@@ -1,0 +1,457 @@
+@media (max-width: 1440px) {
+  .circle {
+    right: 17%;
+    transform: translateY(-115px);
+  }
+  .footer-text {
+    margin: 0 7rem;
+  }
+}
+@media (max-width: 1250px) {
+  .image-gallery {
+    width: 90%;
+    justify-content: center;
+  }
+  .image-div {
+    width: 17rem;
+  }
+  .image-div img {
+    width: 98%;
+    height: 98%;
+  }
+}
+
+@media (max-width: 1200px) {
+  /*    about perfect        */
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .picture-service img {
+    max-width: 98%;
+  }
+
+  .about {
+    max-width: 43%;
+  }
+
+  .vactor-0 {
+    transform: translateY(-25rem);
+    left: 55%;
+  }
+  .vactor-1 {
+    left: 73%;
+  }
+
+  /*           carpet cleaning       */
+
+  .service-text-h1 {
+    text-align: center;
+    font-size: 53px;
+  }
+
+  /*               why choose              */
+
+  .picture-service-2 img {
+    max-width: 95%;
+  }
+  .about h1 {
+    font-size: 45px;
+  }
+  .about p {
+    font-size: 18px;
+  }
+
+  /*          red banner          */
+
+  .red-banner {
+    justify-content: space-between !important;
+  }
+
+  /*                    carousel 2             */
+  /* .carousel-cards {
+    margin: 0 33rem;
+  } */
+  .card-b {
+    width: 95% !important;
+    height: 100%;
+    min-height: 370px;
+  }
+  .owl-prev span {
+    left: -2.5rem;
+  }
+  .owl-theme .owl-nav {
+    margin-top: 0px;
+
+    transform: translateY(-22rem);
+  }
+
+  .carousel-2 .owl-nav .owl-next span {
+    color: #282828;
+    transform: translateX(20px);
+    top: 3rem;
+  }
+  .carousel-2 .owl-nav {
+    margin-top: 0px;
+    transform: translateY(-28rem);
+  }
+
+  .carousel-2
+    .owl-stage-outer
+    .owl-stage
+    .owl-item.active.center
+    .item
+    .card-b {
+    box-shadow: none;
+  }
+
+  /* .carousel-2 .owl-nav .owl-next span {
+      top: -14rem;
+      transform: translateX(30rem);
+    } */
+
+  /* .carousel-2 .owl-nav .owl-prev span {
+      left: -7%;
+      transform: translateY(-15.5rem);
+    } */
+
+  /*         footer             */
+
+  .footer-text {
+    margin: 0;
+  }
+
+  .footer-text h1 {
+    font-size: 31px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .vactor-0 {
+    position: absolute;
+    left: 10%;
+  }
+  .form-button {
+    margin: 18%;
+  }
+
+  .carousel-2 .owl-stage-outer {
+    background-position: 25% 4%, 65% 47%, 60% 23%, 30% 61%;
+  }
+  #map {
+    width: 100%;
+    height: 18rem;
+  }
+  /* .carousel-cards {
+    margin: 0;
+  } */
+  .owl-carousel .owl-nav.disabled {
+    bottom: initial;
+  }
+}
+@media (max-width: 992px) {
+  .contact-logo {
+    display: block !important;
+  }
+  .contact-us {
+    display: none !important;
+  }
+  .main-header {
+    justify-content: space-around !important;
+  }
+
+  /*          banner           */
+
+  .banner-body {
+    flex-direction: column !important;
+    padding: 2rem 0 0;
+  }
+  .head-text h1 {
+    font-size: 49px;
+    text-align: center;
+  }
+  .head-text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form {
+    width: 61%;
+    margin-top: 4rem;
+  }
+
+  .form-button {
+    margin: 25%;
+  }
+
+  /*       serive       */
+
+  .carpet-section {
+    margin-top: -4rem;
+  }
+
+  .service {
+    display: none !important;
+  }
+  .media-786 {
+    display: block;
+  }
+  .picture-service {
+    transform: none;
+  }
+  .media-h1 {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    font-family: "Prata", serif;
+    font-size: 49px;
+  }
+
+  .col-p p {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+  }
+  .h3tick h3 {
+    font-size: 17px;
+  }
+
+  /*  banner             */
+
+  .red-banner-section {
+    margin-top: -3rem;
+  }
+  .banner-des h2 {
+    font-size: 21px;
+  }
+  .banner-des h3 {
+    font-size: 12px;
+  }
+  .banner-btn {
+    font-size: 13px;
+  }
+
+  /*        gallery                     */
+
+  .gallery-main h1 {
+    font-size: 49px;
+  }
+
+  /*  our customer        */
+
+  .our-customer-story h1 {
+    font-size: 49px;
+  }
+  .our-customer-story p {
+    padding: 0 5rem;
+  }
+
+  /*    carousel 2  */
+
+  /* .owl-carousel .owl-stage-outer {
+    overflow: visible; /* Override default overflow hidden */
+
+  .owl-carousel .owl-item {
+    width: 50%; /* Show two items per row */
+    float: left; /* Float the items to create a grid effect */
+  }
+  .carousel-2 .owl-dots {
+    position: absolute;
+    transform: translateX(-18rem);
+    top: 28rem;
+  }
+
+  .carousel-2 .owl-stage-outer {
+    background-position: 8% 15%, 50% 50%;
+  }
+
+  .card-b {
+    width: 91% !important;
+    padding: 0.5rem 0 0;
+    margin: 0 34rem;
+  }
+
+  #map {
+    width: 100%;
+    height: 14rem;
+  }
+}
+@media (max-width: 786px) {
+  .carousel-1 .carousel-cards {
+    margin: 0 11rem;
+  }
+
+  .footer-text h1 {
+    font-size: 24px;
+  }
+  #map {
+    margin-top: 17rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .main-header {
+    justify-content: space-evenly !important;
+    align-items: center;
+  }
+  .banner-body {
+    display: block;
+  }
+  .banner {
+    max-width: 100%;
+  }
+
+  .media-786 .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-logo {
+    display: flex !important;
+    justify-content: space-between;
+  }
+  .mail-svg-span {
+    padding: 6px;
+    margin-right: 12px;
+  }
+
+  .mail-svg {
+    width: 35px;
+    height: 39px;
+  }
+
+  .call-svg {
+    width: 35px;
+    height: 39px;
+  }
+
+  .call-svg-span {
+    padding: 6px;
+    margin-left: 0;
+  }
+
+  /*              banner             */
+
+  .head-text h1 {
+    font-size: 34px;
+  }
+
+  .head-text p {
+    font-size: 16px;
+    padding: 2rem;
+  }
+
+  .contact-form {
+    width: 94%;
+    margin-top: 2rem;
+  }
+  .form-button {
+    margin: 20%;
+  }
+
+  /*         */
+
+  .media-h1 {
+    font-size: 37px;
+    text-align: center;
+  }
+
+  .media-786 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+    align-items: center;
+  }
+
+  .picture-service img {
+    max-width: 95%;
+  }
+  .col-p p {
+    font-size: 15px;
+    margin-top: 1rem;
+  }
+  .service-text-h1 {
+    font-size: 39px;
+  }
+
+  .service-text-p {
+    font-size: 16px;
+  }
+  .carpet-section {
+    margin-top: -7rem;
+  }
+  .red-banner {
+    flex-direction: column;
+  }
+  .vertical-line {
+    display: none;
+  }
+  button.btn.site-button.mt-2.px-3 {
+    font-size: 14px;
+  }
+  .banner-btn {
+    transform: translate(10%);
+    padding: 7px 19px !important;
+  }
+
+  /*                 carousel            */
+
+  .carousel-2 .owl-stage-outer {
+    background-image: none;
+  }
+
+  .owl-carousel .owl-item img {
+  }
+  .card-body h5 {
+    font-size: 13px;
+  }
+
+  .card-b .card-body span {
+    font-size: 12px;
+  }
+
+  .read-more {
+    font-size: 12px;
+  }
+
+  .card-body {
+    padding: 0;
+  }
+
+  .card-body p {
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .carousel-cards {
+    height: 20.5rem;
+  }
+
+  /*                            */
+  .our-customer-story h1 {
+    font-size: 39px;
+  }
+  .our-customer-story p {
+    padding: 0 3rem;
+    font-size: 13px;
+  }
+  .our-customer-story p {
+    padding: 0 3rem;
+    font-size: 13px;
+  }
+  .footer-text h1 {
+    font-size: 17px;
+  }
+  p.text-light.py-2 {
+    font-size: 11px;
+  }
+  #map {
+    width: 100%;
+    height: 12rem;
+  }
+}
