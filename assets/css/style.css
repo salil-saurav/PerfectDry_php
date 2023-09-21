@@ -85,14 +85,10 @@ body a {
 /*                        Banner                            */
 
 .banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../Images/2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
-  align-items: center;
-  justify-content: space-around;
 }
 .head-text {
   max-width: 500px;

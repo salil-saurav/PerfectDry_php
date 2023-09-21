@@ -10,12 +10,21 @@ $banner_title = get_field("banner_title");
 $banner_description = get_field("banner_description");
 $banner_button_text = get_field("banner_button_lable");
 $banner_form_title = get_field("banner_form_title");
+$banner_background_image = get_field("banner_background_image");
 
 ?>
 
 
 
 <!--               Banner                -->
+
+<style>
+    .banner {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(<?php echo $banner_background_image['url'] ?>);
+        ;
+    }
+</style>
 
 
 <section id="banner ">
@@ -44,6 +53,9 @@ $banner_form_title = get_field("banner_form_title");
                     <h2 class="form-header-text">
                         <?php echo $banner_form_title ? $banner_form_title : "Get A Free Quote" ?>
                     </h2>
+
+                    <!-- Form 7 Integration    -->
+
                     <?php echo do_shortcode('[contact-form-7 id="37bc704" title="Untitled"]'); ?>
                     <button type="submit" class="form-button site-button btn px-5 mt-3 mb-2">
                         Submit Now
@@ -62,6 +74,20 @@ $banner_form_title = get_field("banner_form_title");
 
 <!--                                                   media@728                                                                   -->
 
+
+<?php
+
+$about_title = get_field("about_title");
+$about_image = get_field("about_image");
+$about_decriptionone = get_field("about_decriptionone");
+$about_descriptiontwo = get_field("about_descriptiontwo");
+$about_button_title = get_field("about_button_title");
+
+if ($about_image) {
+    $about_image_url = $about_image["url"];
+}
+
+?>
 <div class="container media-786">
     <h1 class="mb-3 media-h1">About Perfect Dry Services</h1>
 
@@ -83,21 +109,9 @@ $banner_form_title = get_field("banner_form_title");
     </div>
 </div>
 
-<!--     -->
+<!--   Main View   -->
 
-<?php
 
-$about_title = get_field("about_title");
-$about_image = get_field("about_image");
-$about_decriptionone = get_field("about_decriptionone");
-$about_descriptiontwo = get_field("about_descriptiontwo");
-$about_button_title = get_field("about_button_title");
-
-if ($about_image) {
-    $about_image_url = $about_image["url"];
-}
-
-?>
 
 <div class="container">
     <section class="about-perfect">
@@ -170,7 +184,6 @@ $carpet_button_title = get_field("carpet_button_title");
 
                 if ($carousel_items) {
                     foreach ($carousel_items as $carousel_item) {
-                        // Access subfields for the current carousel item
                         $image = $carousel_item['carousel_one_image'];
                         $title = $carousel_item['carousel_title'];
                         $description = $carousel_item['carousel_description'];
