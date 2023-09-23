@@ -31,7 +31,6 @@
 $logo = get_field("logo_image", "option");
 $email = get_field("email", "option");
 $phone = get_field("phone", "option");
-
 ?>
 
 <body>
@@ -39,7 +38,7 @@ $phone = get_field("phone", "option");
 
     <div class="container">
         <header class="main-header d-flex justify-content-between mt-4 mb-4">
-            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="logo">
+            <div class="logo">
                 <span>
                     <a href="#">
                         <img class="logo-media" src="<?php echo $logo['url'] ?>" alt="Logo" srcset="" />
@@ -47,7 +46,7 @@ $phone = get_field("phone", "option");
                 </span>
             </div>
 
-            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="contact-logo d-none">
+            <div class="contact-logo d-none">
                 <span class="mail-svg-span"><svg class="mail-svg" xmlns="http://www.w3.org/2000/svg" height="24"
                         viewBox="0 -960 960 960" width="24">
                         <path

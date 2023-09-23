@@ -56,7 +56,7 @@ $banner_background_image = get_field("banner_background_image");
 
                     <!-- Form 7 Integration    -->
 
-                    <?php echo do_shortcode('[contact-form-7 id="37bc704" title="Untitled"]'); ?>
+                    <?php echo do_shortcode('[contact-form-7 id="37bc704" title="Contact Form" class="needs-validation"]'); ?>
                     <button type="submit" class="form-button site-button btn px-5 mt-3 mb-2">
                         Submit Now
                     </button>

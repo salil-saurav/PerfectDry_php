@@ -1,14 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const map = document.getElementById("map");
 
-  // Disable map scroll by default
-  map.style.pointerEvents = "none";
-
-  // Enable map scroll on click
-  map.addEventListener("click", function () {
-    map.style.pointerEvents = "auto";
-  });
-});
 
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
@@ -44,9 +34,6 @@ $(document).ready(function () {
   ); // Right arrow symbol
 });
 
-AOS.init({
-  once: true,
-});
 
 (() => {
   "use strict";
@@ -72,7 +59,7 @@ AOS.init({
 //                 submit form handler
 
 document.addEventListener("DOMContentLoaded", () => {
-  const form = document.getElementById("web-form");
+  const form = document.getElementsByClassName("contact-form");
   const scrollToFormButton = document.querySelectorAll(".scrollToFormButton");
 
   scrollToFormButton.forEach((btn) => {

@@ -1,5 +1,5 @@
 <?php
-function twenty_twenty_one_scripts()
+function my_css()
 {
 
 
@@ -11,7 +11,7 @@ function twenty_twenty_one_scripts()
 	wp_enqueue_style('media_css', get_template_directory_uri() . '/assets/css/media.css', array(), wp_get_theme()->get('Version'));
 
 }
-add_action('wp_enqueue_scripts', 'twenty_twenty_one_scripts');
+add_action('wp_enqueue_scripts', 'my_css');
 
 function custom_js_css_file()
 {
